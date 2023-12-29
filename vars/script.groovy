@@ -3,12 +3,7 @@
 println "Hello , This is a groovy Script!"
 
 
-def printGreeting(name) {
-println "Greetings, $name"
-}
-
-printGreeting("Ravi")
-
+def call() {
 
 
 def result = "ls -ltr".excute()
@@ -16,3 +11,4 @@ def result = "ls -ltr".excute()
 println "Result of 'ls -ltr':"
 
 println result.text
+}
