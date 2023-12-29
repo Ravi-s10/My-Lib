@@ -1,7 +1,9 @@
 
 def call() {
 
-def result = "ls -ltr".excute()
+def fruits = ['Apple','Banana','Mango']
+fruits.each {fruit -> 
+println "I like $fruit"
 
-println result.text
+
 }
